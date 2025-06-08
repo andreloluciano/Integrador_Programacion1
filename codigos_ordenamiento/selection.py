@@ -1,22 +1,36 @@
 import random
 
-lista = [random.randint(1, 100) for _ in range(10)]  # generamos lista aleatoria
-lista_original = lista.copy()  # hacemos una copia exacta antes de ordenar
+def selection_sort(lista):
+    n = len(lista) # guardamos la cantidad de valores
+    for i in range(n - 1):  # itera hasta el anteultimo elemento
+        min_indice = i # guarda el valor actual como el minimo 
+        for j in range(i + 1, n): # el bucle interno busca el menor valor restante
+            if lista[j] < lista[min_indice]:  
+                min_indice = j  # reemplaza el valor minimo si es mas chico
+        lista[i], lista[min_indice] = lista[min_indice], lista[i] # intercambia el valor mínimo encontrado con la posición actual 
+    return lista  # devuelve la lista ordenada
 
-print(f"Lista original: {lista_original}")  # imprimimos ahora porque despues esta ordenada
+# Generamos la lista y llamamos a la función
+lista = [random.randint(1, 100) for _ in range(10)]
+lista_original = lista
 
-n = len(lista)  # guardamos la cantidad de valores
+print(f"Lista original: {lista_original}")
+print(f"Lista ordenada: {selection_sort(lista)}")
 
-for i in range(n - 1):  # itera hasta el penúltimo elemento
-    min_indice = i  # guarda valor actual como el mínimo
-    for j in range(i + 1, n):  # el bucle interno busca el menor valor restante
-        if lista[j] < lista[min_indice]:
-            min_indice = j  # reemplaza el valor mínimo si es más chico
 
-    # intercambia el valor mínimo encontrado con la posición actual
-    lista[i], lista[min_indice] = lista[min_indice], lista[i]
 
-print(f"Lista ordenada: {lista}")
+# n = len(lista)  # guardamos la cantidad de valores
+
+# for i in range(n - 1):  # itera hasta el penúltimo elemento
+#     min_indice = i  # guarda valor actual como el mínimo
+#     for j in range(i + 1, n):  # el bucle interno busca el menor valor restante
+#         if lista[j] < lista[min_indice]:
+#             min_indice = j  # reemplaza el valor mínimo si es más chico
+
+#     # intercambia el valor mínimo encontrado con la posición actual
+#     lista[i], lista[min_indice] = lista[min_indice], lista[i]
+
+# print(f"Lista ordenada: {lista}")
 
 
 # codigo de colab
