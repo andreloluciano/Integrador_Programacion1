@@ -4,7 +4,7 @@ lista_aleatoria = [random.randint(1, 100) for _ in range(10)]
 print("Lista aleatoria generada:", lista_aleatoria) # imprimimos la lista ya aca ya que luego se imprime ordenada
 
 def bubble_sort(lista):
-    n = len(lista)  # Obtenemos la cantidad de elementos en la lista
+    n = len(lista)  # cantidad de valores en la lista
 
     
     for i in range(n): # recorre la lista 
