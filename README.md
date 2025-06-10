@@ -1,7 +1,7 @@
-# 🧠 Trabajo Práctico Integrador - Programación I
+# 💻 Trabajo Práctico Integrador - Programación I
 
 **Tecnicatura Universitaria en Programación**  
-*Universidad Tecnológica Nacional*
+* 📍 Universidad Tecnológica Nacional*
 
 ## 🧩 Tema Elegido: Búsqueda y Ordenamiento
 
