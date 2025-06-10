@@ -38,8 +38,8 @@ El objetivo de este trabajo práctico es demostrar la comprensión y aplicación
   - Búsqueda Lineal
   - Búsqueda Binaria (iterativa y recursiva)
 
-- `caso_practico.py`
-  Aplicación interactiva que simula un catálogo de streaming. Permite buscar y ordenar contenido utilizando diferentes algoritmos. El programa mide el tiempo de ejecución de cada operación y muestra los resultados 
+- `caso_practico.py`  
+  Aplicación interactiva que simula un catálogo de streaming. Permite buscar y ordenar contenido utilizando diferentes algoritmos. El programa mide el tiempo de ejecución de cada operación y muestra los resultados.
 
 ---
 
