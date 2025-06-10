@@ -17,14 +17,14 @@
 
 ## 📂 Descripción del Repositorio
 
-El objetivo de este trabajo práctico es demostrar la comprensión y aplicación de los conceptos fundamentales de **algoritmos de búsqueda** y **ordenamiento**, implementados en Python. A través del desarrollo, se busca analizar, comparar y visualizar distintos métodos utilizados en la manipulación de estructuras de datos.
+El objetivo de este trabajo práctico es demostrar la comprensión y aplicación de los conceptos fundamentales de **algoritmos de búsqueda** y **ordenamiento**, implementados en Python. A través del desarrollo, se busca analizar, comparar y visualizar distintos métodos utilizados en la manipulación de estructuras de datos
 
 ---
 
 ## 📁 Contenido del Repositorio
 
 - `Trabajo-Práctico-Integrador-Arrieta-Andrelo.pdf`  
-  Informe completo con la parte teórica, desarrollo práctico, capturas, reflexiones y conclusiones.
+  Informe completo con la parte teórica, desarrollo práctico, capturas, reflexiones y conclusiones
 
 - `codigos_ordenamiento/`  
   Carpeta con las implementaciones de los algoritmos de ordenamiento:
@@ -38,11 +38,14 @@ El objetivo de este trabajo práctico es demostrar la comprensión y aplicación
   - Búsqueda Lineal
   - Búsqueda Binaria (iterativa y recursiva)
 
+- `caso_practico.py`
+  Aplicación interactiva que simula un catálogo de streaming. Permite buscar y ordenar contenido utilizando diferentes algoritmos. El programa mide el tiempo de ejecución de cada operación y muestra los resultados 
+
 ---
 
 ## 🎥 Video Explicativo
 
-Video donde se explica el desarrollo del proyecto, se analizan resultados y se realiza una demostración de funcionamiento de los algoritmos implementados.
+Video donde se explica el desarrollo del proyecto, se analizan resultados y se realiza una demostración de funcionamiento de los algoritmos implementados
 
 **🔗 Link al video:** [pendiente de agregar]
 
@@ -52,9 +55,9 @@ Video donde se explica el desarrollo del proyecto, se analizan resultados y se r
 
 Este trabajo nos permitió:
 
-- Entender a fondo cómo funcionan internamente los principales algoritmos de ordenamiento y búsqueda.
-- Comparar su rendimiento en diferentes situaciones.
-- Fortalecer nuestras habilidades con funciones, estructuras de control, bucles y recursividad en Python.
+- Entender a fondo cómo funcionan internamente los principales algoritmos de ordenamiento y búsqueda
+- Comparar su rendimiento en diferentes situaciones
+- Fortalecer nuestras habilidades con funciones, estructuras de control, bucles y recursividad en Python
 
 ---
 
