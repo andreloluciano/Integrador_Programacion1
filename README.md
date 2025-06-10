@@ -47,7 +47,7 @@ El objetivo de este trabajo práctico es demostrar la comprensión y aplicación
 
 Video donde se explica el desarrollo del proyecto, se analizan resultados y se realiza una demostración de funcionamiento de los algoritmos implementados
 
-**🔗 Link al video:** [pendiente de agregar]
+**🔗 Link al video:** https://www.youtube.com/watch?v=3ptHZCf4VLQ
 
 ---
 
