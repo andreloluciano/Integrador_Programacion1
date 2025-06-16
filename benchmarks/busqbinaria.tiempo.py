@@ -27,7 +27,7 @@ def ejecutar_peor_caso():
 
 # medir tiempos de ejecución
 tiempo_mejor = timeit.timeit("ejecutar_mejor_caso()", globals=globals(), number=1000)  # mejor caso O(1)
-tiempo_peor = timeit.timeit("ejecutar_peor_caso()", globals=globals(), number=0000)  # peor caso O(log n)
+tiempo_peor = timeit.timeit("ejecutar_peor_caso()", globals=globals(), number=1000)  # peor caso O(log n)
 
 print(f"Búsqueda Binaria - Mejor caso (O(1)): {tiempo_mejor:.5f} segundos")
 print(f"Búsqueda Binaria - Peor caso (O(log n)): {tiempo_peor:.5f} segundos")
