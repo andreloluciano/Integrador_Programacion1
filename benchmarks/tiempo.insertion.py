@@ -13,7 +13,7 @@ def insertion_sort(lista):  # definimos la función de ordenamiento por inserci�
         lista[j + 1] = clave  # insertamos la clave en su posición correcta
     return lista  # devolvemos la lista ordenada
 
-# Generar listas de prueba
+# generamos listas de prueba
 lista_mejor_caso = list(range(5000))  # lista ordenada (mejor caso)
 lista_peor_caso = list(range(5000, 0, -1))  # lista en orden inverso (peor caso)
 

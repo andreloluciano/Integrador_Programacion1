@@ -13,8 +13,8 @@ def quicksort(arr):
         return quicksort(less) + [pivot] + quicksort(greater)  # aplica recursión y combina resultados
 
 # generamos listas de prueba
-lista_mejor_caso = list(range(3000))  # lista ordenada (mejor caso)
-lista_peor_caso = list(range(3000, 0, -1))  # lista en orden inverso (peor caso)
+lista_mejor_caso = random.sample(range(3000), k=3000)   # lista aleatoria
+lista_peor_caso = list(range(3000))  # lista ya ordenada (peor caso)
 
 # definimos funciones para ejecutar las pruebas
 def ejecutar_mejor_caso():

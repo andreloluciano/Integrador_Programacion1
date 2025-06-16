@@ -16,7 +16,7 @@ def busqueda_binaria(lista, objetivo):
     return -1  # si no encuentra, devuelve -1
 
 # generar listas de prueba
-lista_ordenada = list(range(1000))  # lista ordenada para búsqueda binaria
+lista_ordenada = list(range(2000000))  # lista ordenada para búsqueda binaria
 
 # definir funciones para ejecutar las pruebas
 def ejecutar_mejor_caso():
@@ -26,8 +26,8 @@ def ejecutar_peor_caso():
     busqueda_binaria(lista_ordenada, -1)  # objetivo no está en la lista
 
 # medir tiempos de ejecución
-tiempo_mejor = timeit.timeit("ejecutar_mejor_caso()", globals=globals(), number=1000)  # mejor caso O(1)
-tiempo_peor = timeit.timeit("ejecutar_peor_caso()", globals=globals(), number=1000)  # peor caso O(log n)
+tiempo_mejor = timeit.timeit("ejecutar_mejor_caso()", globals=globals(), number=2000000)  # mejor caso O(1)
+tiempo_peor = timeit.timeit("ejecutar_peor_caso()", globals=globals(), number=2000000)  # peor caso O(log n)
 
 print(f"Búsqueda Binaria - Mejor caso (O(1)): {tiempo_mejor:.5f} segundos")
 print(f"Búsqueda Binaria - Peor caso (O(log n)): {tiempo_peor:.5f} segundos")

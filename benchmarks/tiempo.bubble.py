@@ -9,9 +9,9 @@ def bubble_sort(lista):
             if lista[j] > lista[j + 1]: # si el valor actual es mayor que el siguiente, lo intercambia
                 lista[j], lista[j + 1] = lista[j + 1], lista[j] # esto asegura que el valor mas alto "suba" al final del array
 
-# Generar listas para pruebas (sin caso aleatorio)
-lista_mejor_caso = list(range(5000))  # Ordenada (mejor caso)
-lista_peor_caso = list(range(5000, 0, -1))  # Orden inverso (peor caso)
+# generamos listas para pruebas 
+lista_mejor_caso = list(range(5000))  # ordenada (mejor caso lista ya ordenada)
+lista_peor_caso = list(range(5000, 0, -1))  # orden inverso (peor caso lista en orden inverso)
 
 # Definir funciones específicas para ejecutar las pruebas
 def ejecutar_mejor_caso():
