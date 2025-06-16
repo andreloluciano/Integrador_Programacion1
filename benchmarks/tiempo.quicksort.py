@@ -1,5 +1,7 @@
 import timeit
 import random
+import sys
+sys.setrecursionlimit(5000)  # como quickSort es n², aumentamos el limite de recursion
 
 def quicksort(arr):
     if len(arr) <= 1:  # caso base: una lista de 0 o 1 elemento ya está ordenada
@@ -11,8 +13,8 @@ def quicksort(arr):
         return quicksort(less) + [pivot] + quicksort(greater)  # aplica recursión y combina resultados
 
 # generamos listas de prueba
-lista_mejor_caso = list(range(900))  # lista ordenada (mejor caso)
-lista_peor_caso = list(range(900, 0, -1))  # lista en orden inverso (peor caso)
+lista_mejor_caso = list(range(3000))  # lista ordenada (mejor caso)
+lista_peor_caso = list(range(3000, 0, -1))  # lista en orden inverso (peor caso)
 
 # definimos funciones para ejecutar las pruebas
 def ejecutar_mejor_caso():
