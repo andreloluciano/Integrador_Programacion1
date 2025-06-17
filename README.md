@@ -2,6 +2,7 @@
 
 - Se agregó más teoría de complejidad algorítmica, mostrando sus tipos, y el análisis de mejor y peor caso para cada operación (búsquedas y ordenamientos) en el documento PDF
 - Se incorporó una nueva carpeta `benchmarks/`, con scripts individuales para cada algoritmo, mostrando sus tiempos de ejecución en mejor y peor caso
+- Link de Youtube: https://youtu.be/qtl5olRMS_Q?t=549, debería redireccionar directamente al material agregado, sino adelantar al minuto 09:00
 
 
 # 💻 Trabajo Práctico Integrador - Programación I
